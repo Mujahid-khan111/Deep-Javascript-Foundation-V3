@@ -1,4 +1,7 @@
 // It's Exist on other languages but not in JavaScript, It's theorically exist in JavaScript.
+// Dynamic Scope aur Lexical Scope (ya Static Scope) ke beech ek badi difference hoti hai, 
+// jo mainly is baat par depend karti hai ki variables ka resolution kaise hota hai:
+// Lexical Scope: Variables ka scope unke code ke likhne ke place par
 
 var teacher = 'Kyle';
 
@@ -12,7 +15,6 @@ function student2() {
     student('Desuza') // It checks where was student called from.
 }
 student2()
-
 
 var a = "good";
 
